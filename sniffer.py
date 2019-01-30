@@ -35,8 +35,9 @@ def sniff(interface):
 
 
 def main():
+    interface = raw_input("Interface Name: ")
 
-    sniff("eth0")
+    sniff(interface)
 
 
 
